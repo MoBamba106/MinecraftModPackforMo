@@ -1,0 +1,15 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# The built pack in dist/ IS committed on purpose so it can be downloaded
+# straight from GitHub. Ignore local scratch builds instead:
+*.tmp
+*.bak
+
+# Local Minecraft run dirs, in case anyone tests the pack inside the repo
+run/
+.minecraft/
